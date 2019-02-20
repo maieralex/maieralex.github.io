@@ -1,0 +1,65 @@
+/* vDream */
+/* Actions Stylesheet
+----------------------------------------------------------------------------- */
+
+/* Actions Layout
+----------------------------------------------------------------------------- */
+
+
+	a.action {
+	display: block;
+	height: 34px;
+	overflow: hidden;
+	text-indent: -5000px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	overflow: hidden;
+		
+	}
+	
+	a.action:hover {
+		
+	background-position: 0 -34px !important;	
+	
+	}
+	
+/* Image Replacement
+--------------------------------------------------------------------------- */
+	
+	a.home {
+	
+	width: 38px;
+	background: url(../images/action/a-home.gif);
+		
+	}
+	
+	a.about {
+		
+	width: 64px;
+	background: url(../images/action/a-about.gif);
+		
+	}
+	
+	a.twitter {
+	
+	width: 121px;
+	background: url(../images/action/a-twitter.gif);
+		
+	}
+	
+	a.facebook {
+	
+	width: 139px;
+	background: url(../images/action/a-facebook.gif);
+		
+	}
+	
+	a.contact {
+	
+	width: 76px;
+	background: url(../images/action/a-contact.gif);
+		
+	}
+
+
+	

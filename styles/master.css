@@ -1,0 +1,38 @@
+@import url("reset.css");
+@import url("layout.css");
+@import url("actions.css");
+@import url("comon-member.css");
+
+/* CSS Basic Document */
+html, body {
+	height: 100%;
+}
+
+body{
+	background:#fff url(../images/background.jpg) center top no-repeat;
+	color: #7f7f7f;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	
+	}
+	
+	/* headings and paragraphs ---- */
+	
+	h1{font-size:30px; text-align:left; font-family:Georgia, "Times New Roman", Times, serif; color:#274e04; font-weight:normal;}
+	h2{font-size:18px;}
+	h3{font-weight:normal; font-size:16px; color:#ba0541;}
+	
+	/* forms ---------*/
+		
+	input,textarea,select { color: #7d7d7d; font-family:Helvetica, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold;}
+	
+	/* links ---- */		
+	a { text-decoration:none; font-family:Tahoma, Arial, Helvetica, sans-serif; font-size:12px; color:#000;}
+	
+	a:hover { text-decoration: none;}
+		
+	p {line-height:1.4em;}
+
+/* CSS Footer Document */
+.cleare {clear:both;}

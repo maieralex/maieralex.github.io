@@ -1,0 +1,67 @@
+/* CSS Document */
+	/* Layout Stylesheet
+----------------------------------------------------------------------------- */
+	#wrapper {
+	 width:910px; position:relative; min-height: 100%; height: auto !important;height: 100%; margin: 0 auto -118px;
+	}
+	
+	#header {
+	height: 159px; width:910px; margin:0 auto;
+	}
+	
+	#header div.top {height:95px; padding-top:30px;}
+	
+	#header .nav {height:34px; background:url(../images/nav-bg.gif) repeat-x left;}
+	#header .nav ul{margin-left:10px;}
+	#header .nav li{height:34px; background:url(../images/devider.gif) no-repeat right; display: inline; float:left; line-height:34px; padding:0 30px;}
+	#header .nav li.none{background:none; }
+
+	#banner {
+	height: 284px; background:#fff url(../images/banner.jpg) center top no-repeat; border-bottom:1px solid #ded8da; padding:0 0 0 65px;
+	}
+	
+	#banner  span{
+	float:right; margin-top:155px;
+	}
+	
+	#container { background:#fff url(../images/content-bg.gif) center top no-repeat;}
+	#container input{ border:1px solid #eff6e9;}
+	
+	#container div.colum-1 {width:562px; float:left; padding:20px 0 0 0;}
+	#container div.colum-1 .post{ padding:20px 0;}
+	#container div.colum-1 .post h1 { height:65px; font-style:italic;}
+	#container div.colum-1 .post h1 span{ float:left; background:url(../images/date-bg.gif) no-repeat top; color:#fff; font-weight:bold; font-size:16px; width:72px; height:52px; text-align:center; padding-top:10px; margin-right:20px; font-style:normal; font-family:Arial, Helvetica, sans-serif;}
+	#container div.colum-1 .post h1 span strong{font-size:26px;}
+	#container div.colum-1 .post p{ margin:10px; line-height:1.5em;}
+	#container div.colum-1 .post p.link{ background:url(../images/bottom-link.gif) no-repeat left; height:31px; line-height:26px; margin:0px 0 10px 7px; padding:0 10px;}
+	#container div.colum-1 .post p.link span{ float:left;}
+	#container div.colum-1 .post p.link label{float:right; background:url(../images/arrow.gif) no-repeat right; padding-right:10px;}
+	#container div.colum-1 .post p.link a{ color:#6c6c6c; font-size:11px;}
+	#container div.colum-1 .post p.link a:hover{text-decoration:underline;}
+
+	
+	#container div.colum-2 {background:url(../images/right-bg.gif) left top no-repeat; width:300px; float:right; padding:20px 0 0 0;}
+	#container div.colum-2 div { padding:10px 30px 15px 20px;}
+	#container div.colum-2 h1{background:url(../images/h1-bg.gif) left top no-repeat; padding-left:30px; height:46px; line-height:30px; font-size:24px; color:#fff;}
+	
+	/* Search Box */
+	#container div.colum-2 div.search { margin:0 0 10px 10px;}
+	#container div.colum-2 div.search .text { padding:6px; width:180px;}
+	#container div.colum-2 div.search .search_ico {background:url(../images/action/icon-search.gif) left top no-repeat; border:none; height:33px; width:34px; cursor:pointer;}
+	
+	/* List Items */
+	#container div.list li{ background:url(../images/border.gif) left bottom repeat-x; padding-left:15px; height:32px; line-height:30px;}
+	#container div.list li a{ font-size:11px; font-weight:bold;}
+	#container div.list li a:hover{ color:#598637;}
+
+
+	.footer	{
+	width:100%;text-align:center; position:relative; margin:0 auto;  background:url(../images/footer.gif) bottom repeat-x;  color:#cad6bf;
+	}
+	.footer, .push {
+		height: 118px; /* .push must be the same height as .footer */
+	}
+
+	.footer	div{
+	padding-top:70px;
+	}
